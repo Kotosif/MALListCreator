@@ -1,6 +1,6 @@
 # pylint: disable=W0632 
 from lxml import etree as ET
-from sys import argv
+from sys import argv, exit
 import requests
 from requests.auth import HTTPBasicAuth
 from gsearch import GoogleAPI

@@ -29,9 +29,13 @@ The script has limited awareness of typical ways a user may write the series tit
 - Anime title ending with *s2* will replace the s2 with just *2*
 - Anime title ending with *s1* will remove the s1
 
-Requires:
+## Dependencies:
 - Internet connection
 - Python 3.X
 - lxml (if you run python 3.6 as the default `py -3.6 -m pip install lxml`)
 - BeautifulSoup4 (e.g. `py -3.6 -m pip install beautifulsoup4`)
 
+## Building executable
+A standalone executable is located in the dist folder. To build this, use pyinstaller.
+
+`pyinstaller --onefile converter.py`

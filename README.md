@@ -1,3 +1,6 @@
+![Python Version](https://img.shields.io/badge/Python-3.6-green.svg)
+
+
 # MALListCreator
 Written in Python 3.
 Converts a text file to XML format that can be imported into MAL.
